@@ -1,0 +1,180 @@
+body{
+	background: #002781;
+	font-family: ABeeZee;
+}
+
+#navigation {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 35px;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	opacity: 0.5;
+	filter: alpha(opacity=60);
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	background-color: #ffffff;
+	color: rgba(1, 1, 1, 0.8);
+}
+
+.link {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	color:#333333;
+	font-family:ABeeZee;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffee66;
+}
+
+.link:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+	background-color:#ffab23;
+}
+
+.link:active {
+	position:relative;
+	top:1px;
+}
+
+p, h1{
+	text-align:center;
+}
+
+h1{
+	font-size: 70pt;
+	font-family: gyparody_hv;
+	margin-top: 0;
+	color: #FFBA1A;
+}
+
+@font-face {
+	font-family: gyparody_hv;
+	src: url('gyparody_hv.ttf');
+	
+}
+
+a{
+	color:gray;
+	text-decoration:none;
+	margin-right:15px;
+}
+
+a:hover{
+	color: white;
+	text-shadow: 0 0 3px #FFBA1A, 0 0 4px #FFBA1A, 0 0 5px #FFBA1A, 0 0 6px #FFBA1A, 0 0 3px #FFBA1A;
+	text-decoration: none;
+}
+
+#container {
+	margin: 100px auto;
+	width: 1000px;
+	border-radius: 15px;
+	box-shadow: -5px 5px 5px rgba(0,0,0,0.5);
+	border:solid 2px rgba(0,0,0,0.5) ;
+	padding:25px;
+	background: white;
+}
+
+#nameInput, #nameOutput{
+	float: left;
+	margin: 10px 15px;
+}
+
+#changeRound{
+	float: right;
+	margin: 10px 15px;
+}
+
+label{
+	margin-right: 5px;
+}
+
+table{
+	width:975px;
+	margin:0 auto;
+	border:none;
+}
+
+td {
+	border: 1px solid #2b2b2b;
+	color: white;
+	padding-left: 1em;
+	padding-right: 1em;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background: url("jeopardy.gif");
+}
+
+td#roundNumber{
+	padding: 7px;
+	font-size: 15px;
+}
+
+td#roundTitle{
+	padding: 7px;
+	font-size: 30px;
+	text-align: center;
+}
+
+#categoryNames td{
+	text-align:center;
+	color: #FFBA1A;
+	padding: 7px;
+}	
+		
+.question {
+	cursor: help;
+	width: 200px;
+	height: 200px;
+}
+
+.question .a, .finalquestion .a{
+	visibility:hidden;
+}
+
+.question:hover, .finalquestion:hover {
+	background-color:#ddd;
+}
+
+.question:hover .a, .finalquestion:hover .a{
+	visibility:visible; 
+	color:#FFBA1A;
+}
+
+#footer{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #ffffff;
+	height: 35px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	opacity: 0.5;
+	filter: alpha(opacity=60);
+	-webkit-box-shadow: 0px 0px 8px 0px #000000;
+	-moz-box-shadow: 0px 0px 8px 0px #000000;
+	box-shadow: 0px 0px 8px 0px #000000;
+	background-color: #ffffff;
+	color: rgba(1, 1, 1, 0.8);
+	text-align: center;
+}
